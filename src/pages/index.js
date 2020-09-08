@@ -18,7 +18,7 @@ class RootIndex extends React.Component {
           <Helmet title={siteTitle} />
           <Hero data={author.node} />
           <div className="wrapper">
-            <h2 className="section-headline">holi, soy una prueba de que sí funciono ;)</h2>
+            <h2 className="section-headline">prueba de git cumplida</h2>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
